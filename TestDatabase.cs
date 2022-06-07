@@ -5,7 +5,7 @@ using ImprovementStoreFlows.Model;
 
 namespace ImprovementStoreFlows
 {
-    [SimpleJob(RunStrategy.Monitoring, launchCount: 1, warmupCount: 1, targetCount: 1000)]
+    [SimpleJob(RunStrategy.Monitoring, launchCount: 1, warmupCount: 1, targetCount: 50)]
     [MemoryDiagnoser]
     public class TestDatabase
     {
